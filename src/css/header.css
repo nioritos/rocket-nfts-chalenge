@@ -21,13 +21,18 @@
     flex-direction: row;
 }
 
-.hyperlink {
-    margin: 0 1.5rem;
+.hyperlink, .hyperlink a {
+    color: #fff;
+
+    margin: 0 1rem;
 }
 
 .hyperlink-metamask {
     background: #fff;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: flex-end;
 }
 
 .box-metamask li {

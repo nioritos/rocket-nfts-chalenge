@@ -1,7 +1,40 @@
 /*Home configs ======================*/
 
 .container {
-    width: 100%;
-    height: 100%;
-    background-image: url(background.png);
+    width: 100vw;
+    height: 100vh;
 }
+
+.background-image{
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    margin-top: -4rem;
+}
+
+/*the real content ==*/
+
+.comments-arts {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.profile-arts {
+    width: 500px;
+}
+
+.one-artist{
+    z-index: 9999;
+    position: absolute;
+}
+
+.two-artist{
+    position: relative;
+    margin-left: 1.rem;
+}
+
+.three-artist    {
+    margin-left: -5.5rem;
+}
+
